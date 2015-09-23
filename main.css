@@ -5,6 +5,7 @@ li ul {
 .octocat img {
   width: 400px;
   border: 1px solid gray;
+  margin-left: 1px;
 }
 
 .authors {
@@ -14,15 +15,18 @@ li ul {
 
 .authors img {
   /*max-width: 10%;*/
-  width: 25px;
+  width: 20px;
   float: right;
   display: inline-block;
+  margin-top: 4px;
 }
 
 .image-caption {
+  font-size: 15px;
   display: inline-block;
   float: right;
   color: gray;
+  margin-right: 9px;
 }
 
 .octocat {
@@ -30,6 +34,7 @@ li ul {
   display: inline-block;
   float: left;
   margin-right: 5px;
+  padding-bottom: 5px;
   border-bottom: 1px solid gray;
 }
 
