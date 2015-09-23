@@ -1,0 +1,51 @@
+li ul {
+  list-style: none;
+}
+
+.octocat img {
+  width: 400px;
+  border: 1px solid gray;
+}
+
+.authors {
+  display: inline-block;
+  padding: 0px;
+}
+
+.authors img {
+  /*max-width: 10%;*/
+  width: 25px;
+  float: right;
+  display: inline-block;
+}
+
+.image-caption {
+  display: inline-block;
+  float: right;
+  color: gray;
+}
+
+.octocat {
+  max-width: 410px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.image-number {
+  display: inline-block;
+  color: gray;
+}
+
+.image-footer {
+  display: inline;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
