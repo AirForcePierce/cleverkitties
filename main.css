@@ -9,8 +9,9 @@ li ul {
 }
 
 .authors {
-  display: inline-block;
   padding: 0px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .authors img {
@@ -22,11 +23,12 @@ li ul {
 }
 
 .image-caption {
-  font-size: 15px;
+  font-size: 12px;
   display: inline-block;
   float: right;
   color: gray;
   margin-right: 9px;
+  vertical-align: middle;
 }
 
 .octocat {
@@ -41,6 +43,7 @@ li ul {
 .image-number {
   display: inline-block;
   color: gray;
+  vertical-align: middle;
 }
 
 a:link {
